@@ -1,0 +1,34 @@
+Text Editors
+    VIM
+    Visual Studio Code
+        Azure Resource Manager Tools extension
+        
+Shells
+    Microsoft Powershell version 7
+        Azure cloud module
+
+
+git
+
+JVM (using one bundled with IntelliJ?)
+    version?
+
+IntelliJ Idea IDE (version?)
+    bundled Maven 
+    JVM?
+
+
+Selenium
+    Need to clarify which components are maven packages and which are standalone executables.
+
+    Server
+
+Web Browsers
+    Mozzila Firefox browser 
+        versions 
+    Microsoft Edge browser
+        versions
+    Google Chrome browser
+        versions
+    which other ones?
+

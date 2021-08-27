@@ -1,0 +1,118 @@
+<keyword> Tenant
+
+<keyword>
+Multi-tenant, multi-tenancy: The hosting environment is able to host multiple users while ensuring isolation and independence between multiple hosts' activities.
+
+<keyword>
+Microsoft Account
+    Are used for Azure, but also for all other Microsoft online services including Office 365 and XBox.
+
+<keyword>
+Subscription
+    Name
+    Id
+    (My) Role
+    Status
+
+<keyword>
+Directory
+
+<keyword>
+Blade: A window (don't they mean a tab?) in the Azure portal.
+
+<keyword>
+ARM: Azure Resource Manager.
+
+<keyword>
+REST API: REpresentational State Transfer Application Programming Interface. Defines how web-based APIs can communicate by using HTTP.
+
+<keyword>
+CRUD: Create, Read, Update, Delete.
+
+<keyword>
+Resource Provider: An Azure service that delivers a specific Azure product. The Azure resource provider's namespace (corresponding to my account?) is arranged hierarchically.
+
+<keyword>
+Management Hierarchy:
+    Management Group > Subscription > Resource Group > Resource
+
+<keyword>
+Policy:
+    Set of resource deployment (and usage?) rule(s)
+    Can be associated with a management group. (or lower levels?)
+
+Keep in mind that there is a slightly different Namespace hierarchy that includes abstract nodes to specify resource type and similar things.
+
+<keyword>
+Namespace (Hierarchy)
+    The namespace hierarchy is used to refer to azure resources in ARM REST API calls. 
+
+<keyword>
+Region (or Location)
+    Microsoft organizes its regions into geographies (national and state boundaries) to more easily comply with cloud computing related laws.
+    Regions can be paired (availability zones? or a level higher?) for failover redundancy.
+    There are designated paired regions that work well together.
+
+<keyword>
+CLI
+    (Contrast with Azure Powershell. I still don't understand if there is any significant difference to the user experience other than one is hosted in a web browser window shared with Azure Portal. I think Azure CLI is a sub-mode that's started from Azure Cloud Powershell.)
+
+<keyword>
+Azure SDKs
+    Software development kits.
+    Relevant for us: Java, Python, Node.js, .NET
+
+<keyword>
+Storage Account
+    Account Services:
+        BLOBs
+        Semi-Structured Data
+        Message Queues
+        File Shares
+
+<keyword>
+Azure network service providers, resource types:
+
+<keyword>
+IPv4 IPv6
+
+<keyword>
+Address space
+    There are specific sub-ranges of the address space that you can use.
+    Azure reserves some specific addresses in each of your subnets (for network management devices?)
+    I don't understand the details of address range specification yet.
+
+<keyword>
+Virtual Net (VNet)
+    VNet Peering
+
+<keyword>
+Subnet
+   Subnets are usually used to group computers on the network performing similar functionality, so that the same set of access rules can be applied on them by associating a network security group with that sub net.
+
+<keyword>
+Network Security Group
+    Access rules
+    A single NSG can be associated with multiple Subnets on different VNets.
+
+<keyword>
+Network Interface (card)
+
+Public IP Address
+
+Service end-point (access point?)
+
+There's something called a json schema file that (I presume) defines the subset of json expressions that are valid in the context of azure resource manager deployment templates.
+
+<question> Why do I need to use an existing resource group? Why can't a resource group be the root node of the resources in the arm template?
+
+<note> The Azure Powershell object associated with deployment is AzResourceGroupDeployment. Object constructor is New-AzResourceGroupDeployment. One of its parameters is TemplateFile. This parameter lets us specify the filepath to a .json arm template.
+
+<keyword>
+Snapshot
+
+<keyword> VHD
+
+<keyword> VM Image
+
+

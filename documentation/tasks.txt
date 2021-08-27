@@ -1,0 +1,36 @@
+Current Project State
+---------------------
+
+Accounts|Subscriptions|Services
+    Microsoft account
+        email service
+        Azure subscription
+
+Project sub-directory on personal computer for all concrete results
+    arm-templates
+        basic-vm-deployment-template
+            SPLIT INTO SEPARATE FILES FOR EACH RESOURCE
+            ARRANGE INTO A FILESYSTEM HIERARCHY
+    powershell-deployment-scripts
+        CREATE A PARAMETERS FILE TO REFERENCE
+
+    CONFIRM THAT YOU CAN LOG INTO THE NEW VM.
+
+
+Needed Network Resources
+    Testrails server 
+
+Storage account may be needed to host one or more of these for deployment:
+    VM Image | VHD | Snapshot (whatever the differences are)
+
+
+
+
+
+Windows 10 VM
+    Additional Data disk to keep local copy of EQATS repository?
+
+related readings:
+    30 minutes powershell foundational reading start
+
+    30 minutes networking foundational reading start
